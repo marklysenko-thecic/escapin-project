@@ -1,0 +1,27 @@
+read
+    mol pqr snake_m1.pqr
+end
+elec 
+    mg-auto
+    dime 193 193 161
+    cglen 116.4252 131.6786 100.3547
+    fglen 88.4854 97.4580 79.0322
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    lpbe
+    bcfl sdh
+    pdie 2.0000
+    sdie 78.5400
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+    write pot dx snake_m1.pqr
+end
+print elecEnergy 1 end
+quit

@@ -1,0 +1,27 @@
+read
+    mol pqr escapin_S206G_m1.pqr
+end
+elec 
+    mg-auto
+    dime 161 161 193
+    cglen 107.6855 104.7887 138.6690
+    fglen 83.3444 81.6404 101.5700
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    lpbe
+    bcfl sdh
+    pdie 2.0000
+    sdie 78.5400
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+    write pot dx escapin_S206G_m1.pqr
+end
+print elecEnergy 1 end
+quit

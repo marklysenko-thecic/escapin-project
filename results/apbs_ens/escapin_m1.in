@@ -1,0 +1,27 @@
+read
+    mol pqr escapin_m1.pqr
+end
+elec 
+    mg-auto
+    dime 193 161 161
+    cglen 137.0676 112.2411 101.6862
+    fglen 100.6280 86.0242 79.8154
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    lpbe
+    bcfl sdh
+    pdie 2.0000
+    sdie 78.5400
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+    write pot dx escapin_m1.pqr
+end
+print elecEnergy 1 end
+quit

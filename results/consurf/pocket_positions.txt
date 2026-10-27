@@ -1,0 +1,17 @@
+Pocket residues to look up in the ConSurf output (mature numbering):
+  75
+  76
+  103
+  202
+  203
+  204
+  205
+  206
+  207
+  220
+  224
+  369
+  388
+  460
+  499
+  500

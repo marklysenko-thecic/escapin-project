@@ -1,0 +1,27 @@
+read
+    mol pqr inktoxin1_m2.pqr
+end
+elec 
+    mg-auto
+    dime 129 193 193
+    cglen 88.3068 136.9914 122.0552
+    fglen 71.9452 100.5832 91.7972
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    lpbe
+    bcfl sdh
+    pdie 2.0000
+    sdie 78.5400
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+    write pot dx inktoxin1_m2.pqr
+end
+print elecEnergy 1 end
+quit

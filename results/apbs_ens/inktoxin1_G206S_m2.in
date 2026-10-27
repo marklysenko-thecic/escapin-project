@@ -1,0 +1,27 @@
+read
+    mol pqr inktoxin1_G206S_m2.pqr
+end
+elec 
+    mg-auto
+    dime 129 161 225
+    cglen 83.5142 111.1409 143.3307
+    fglen 69.1260 85.3770 104.3122
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    lpbe
+    bcfl sdh
+    pdie 2.0000
+    sdie 78.5400
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+    write pot dx inktoxin1_G206S_m2.pqr
+end
+print elecEnergy 1 end
+quit

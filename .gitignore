@@ -4,3 +4,15 @@ data/raw/*.sra
 .ipynb_checkpoints/
 __pycache__/
 .DS_Store
+models/af3/
+results/apbs/*.pqr
+results/apbs/*.pdb
+results/apbs_ens/*.pqr
+results/apbs_ens/*.pdb
+results/apbs_outlier/*.pqr
+results/apbs_outlier/*.pdb
+docking/runs/
+docking/receptors/*.pdbqt
+*.dx
+data/raw/patents/
+io.mc
